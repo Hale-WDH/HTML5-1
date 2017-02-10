@@ -1,0 +1,83 @@
+/*All tags*/
+* { font-family: Microsoft YaHei UI; font-size: 14px; margin: 0; padding: 0; border: none; }
+a { text-decoration: none; }
+ul { list-style: none; }
+
+/*<!-- 顶部 -->*/
+header { position: relative; height: 80px; background: #2e2e2e; width: 100%;}
+header > .container { position: relative; z-index: 1; width: 1280px; margin: 0 auto; }
+header > .container > a { display: block; float: left; margin: 25px 25px; }
+header > .container > nav { float: right; }
+header > div > nav > a { font-size: 14px; line-height: 80px; display: block; float: left; width: 110px; height: 80px; text-align: center; color: #fff; }
+header > div > nav > a:nth-child(1) { background: #2e2e2e; }
+header > div > nav > a:nth-child(2) { background: #2e2e2e; }
+header > div > nav > a:nth-child(3) { background: #2e2e2e; }
+header > div > nav > a:nth-child(4) { background: #2e2e2e; }
+header > div > nav > a:hover,
+header > div > nav > a.active { background: red; color: blue;}
+
+/*<!-- banner图 -->*/
+.banner > div {position: relative;width: 100%;margin:0 auto;}
+.banner > div > img {position: absolute;height:500px; top:0;right: 0;left: 0;display: block; width: 100%;}
+.banner > div > ul {position: absolute;display: block;float: right ;text-align: center;width: 1280px;height: 500px;color: #fff;top:190px;}
+.banner > div > ul > span {	font-size: 48px;letter-spacing: 3px;}
+.banner > div > ul > p {font-size: 24px;letter-spacing: 1px;}
+
+/*<!-- portifolio区 -->*/
+.portfolio {width: 100%;}
+.portfolio > div:nth-child(1) {position:relative;display:block;width: 600px;height: 400px;top: 600px;text-align: center; margin: 0 auto;}
+.portfolio div > p:nth-child(1) {position: absolute;	color: #f26408;	font-size: 28px;letter-spacing: 9px;left: 200px;}
+.portfolio div > p:nth-child(2) {position: absolute;font-size: 14px;letter-spacing: 1px; top: 50px;}
+.portfolio > div > nav > {position: relative;}
+.portfolio > div > nav > a {position: absolute; font-size: 14px; border:1px solid #f26408;float:left;line-height: 30px; display: block; width: 100px; height: 30px; text-align: center; color: #f26408;}
+.portfolio > div > nav > a:nth-child(1) { background: #fff; left: 30px;top: 140px;}
+.portfolio > div > nav > a:nth-child(2) { background: #fff; left: 140px;top: 140px;}
+.portfolio > div > nav > a:nth-child(3) { background: #fff; left: 250px;top: 140px;}
+.portfolio > div > nav > a:nth-child(4) { background: #fff; left: 360px;top: 140px;}
+.portfolio > div > nav > a:nth-child(5) { background: #fff; left: 470px;top: 140px;}
+.portfolio > div > nav > a:hover,
+.portfolio > div > nav > a.active { background: red; color: blue;}
+.portfolio > div:nth-child(2) {position: relative;display: block;width: 100%;height: 400px;top: 450px;text-align: center; }
+.portfolio > div > img {width:100%;margin: 0 auto;}
+/*<!-- Status区 -->*/
+.Stats {width: 100%;}
+.Stats > div {position:relative;display:block;width: 600px;height: 500px;top: 670px;text-align: center; background: #fff;margin: 0 auto;}
+.Stats > div > p:first-of-type {color: #f26408;	font-size: 28px;letter-spacing: 9px;}
+.Stats > div > p:last-of-type {	font-size: 14px;letter-spacing: 1px; }
+.Stats > div > nav > dl {position: relative;display: block;height: 120px;margin-bottom: 97px;margin-left:50px;text-align: center; float: left;top: 50px;}
+.Stats > div > nav > dl > dd:last-of-type { letter-spacing: 6px;font-size: 20px; line-height: 60px; display: block; width: 90px; height: 60px; margin-top:20px;text-align: center; color: #f26408; }
+.Stats > div > nav > dl > dt { position:absolute;font-size: 14px; line-height: 130px;top:10px;right: 0px; display: block; width: 90px; height: 130px; text-align: center; color: #000; }
+
+/*<!-- team区 -->*/
+.team {width: 100%;}
+.team > .container {position: relative;background: #2e2e2e;display: block;top: 480px;text-align: center;width: 100%;height: 550px;margin: 0 auto;}
+.team > .container > p:first-of-type {position:absolute;color: #f26408;	font-size: 28px;letter-spacing: 6px;width: 600px;text-align: center;margin-top:70px;margin-left: 350px;}
+.team > .container > p:last-of-type {position:absolute;font-size: 14px;letter-spacing: 1px; color: #fff;width: : 600px;margin-top:120px;margin-left: 290px;margin-right: 290px;}
+.team > .container > nav > dl { position: relative; display: block;}
+.team > .container > nav > .first {float: left ;display: block;top:200px;left:300px;margin: auto;}
+.team > .container > nav > .second { float:left;display: block;top:200px;left:330px;margin: auto;}
+.team > .container > nav > .third {float: left ;display: block;top:200px;left:360px;margin: auto;}
+.team > .container > nav > dl > dt { position: relative;font-weight: bold;}
+.team > .container > nav >  .first > dt {top: 220px;color: #fff;left: 10px; }
+.team > .container > nav >  .second > dt {top: 220px;color: #fff;left: 10px;}
+.team > .container > nav >  .third > dt {top: 220px;color: #fff;left: 10px;}
+.team > .container > nav > dl > dd:last-of-type { position:absolute;top:240px;color: #fff; text-align: center;width: 223px;font-size: 14px;left: 0px;}
+
+/*<!-- contact us区 -->*/
+.contact {width: 100%;}
+.contact > .container {position: relative;background: #fff;height:400px;width:600px;display: block;top: 520px;text-align: center;margin: 0 auto;}
+.contact > .container > .first{ color: #f26408;font-size: 28px;letter-spacing: 9px; }
+.contact > .container > .second {font-size: 14px;letter-spacing: 1px; }
+.contact > .container > form {position: relative;}
+.contact > .container > form > input:nth-child(1) {position: absolute;float: left;display:block;height: 30px;width: 290px;top: 20px;border: 1px solid #666699;}
+.contact > .container > form > input:nth-child(2) {position: absolute;float:right;display:block;height: 30px;width: 290px;top: 20px; right: 0px; border: 1px solid #666699;}
+.contact > .container > form > input:nth-child(3) {position: absolute;display:block;height: 120px;width: 600px;margin-top: 40px;top: 20px;border: 1px solid #666699;}
+.contact > .container > form > input:nth-child(4) {position: absolute;display:block;height: 50px;width: 150px;background: #f26408;margin-top: 200px;margin-left: 220px;font-weight: bold;}
+
+/*<!-- 页脚区 -->/*/
+footer > .container {position: relative;background: #000;height:80px;display: block;top: 480px;margin: 0 auto;}
+footer > .container > p {color: #fff;text-align: center;height: 80px;line-height: 80px;}
+
+
+
+
