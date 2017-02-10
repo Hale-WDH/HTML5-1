@@ -19,7 +19,7 @@ header > div > nav > a.active { background: red; color: blue;}
 /*<!-- banner图 -->*/
 .banner > div {position: relative;width: 100%;margin:0 auto;}
 .banner > div > img {position: absolute;height:500px; top:0;right: 0;left: 0;display: block; width: 100%;}
-.banner > div > ul {position: absolute;display: block;float: right ;text-align: center;width: 1280px;height: 500px;color: #fff;top:190px;}
+.banner > div > ul {position: absolute;display: block;float: right ;text-align: center;width: 100%;height: 500px;color: #fff;top:190px;}
 .banner > div > ul > span {	font-size: 48px;letter-spacing: 3px;}
 .banner > div > ul > p {font-size: 24px;letter-spacing: 1px;}
 
@@ -37,11 +37,11 @@ header > div > nav > a.active { background: red; color: blue;}
 .portfolio > div > nav > a:nth-child(5) { background: #fff; left: 470px;top: 140px;}
 .portfolio > div > nav > a:hover,
 .portfolio > div > nav > a.active { background: red; color: blue;}
-.portfolio > div:nth-child(2) {position: relative;display: block;width: 100%;height: 400px;top: 450px;text-align: center; }
+.portfolio > div:nth-child(2) {position: relative;display: block;width: 100%;top: 450px;text-align: center; }
 .portfolio > div > img {width:100%;margin: 0 auto;}
 /*<!-- Status区 -->*/
 .Stats {width: 100%;}
-.Stats > div {position:relative;display:block;width: 600px;height: 500px;top: 670px;text-align: center; background: #fff;margin: 0 auto;}
+.Stats > div {position:relative;display:block;width: 600px;height: 500px;top: 570px;text-align: center; background: #fff;margin: 0 auto;}
 .Stats > div > p:first-of-type {color: #f26408;	font-size: 28px;letter-spacing: 9px;}
 .Stats > div > p:last-of-type {	font-size: 14px;letter-spacing: 1px; }
 .Stats > div > nav > dl {position: relative;display: block;height: 120px;margin-bottom: 97px;margin-left:50px;text-align: center; float: left;top: 50px;}
@@ -53,7 +53,7 @@ header > div > nav > a.active { background: red; color: blue;}
 .team > .container {position: relative;background: #2e2e2e;display: block;top: 480px;text-align: center;width: 100%;height: 550px;margin: 0 auto;}
 .team > .container > p:first-of-type {position:absolute;color: #f26408;	font-size: 28px;letter-spacing: 6px;width: 600px;text-align: center;margin-top:70px;margin-left: 350px;}
 .team > .container > p:last-of-type {position:absolute;font-size: 14px;letter-spacing: 1px; color: #fff;width: : 600px;margin-top:120px;margin-left: 290px;margin-right: 290px;}
-.team > .container > nav > dl { position: relative; display: block;}
+.team > .container > nav > dl { position: relative; display: block;text-align: center;width: 200px;}
 .team > .container > nav > .first {float: left ;display: block;top:200px;left:300px;margin: auto;}
 .team > .container > nav > .second { float:left;display: block;top:200px;left:330px;margin: auto;}
 .team > .container > nav > .third {float: left ;display: block;top:200px;left:360px;margin: auto;}
